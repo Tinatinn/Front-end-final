@@ -1,0 +1,23 @@
+body {
+	line-height: 1;
+	padding: 0px;
+	margin: 0px;
+}
+ol, ul, li, a {
+	list-style: none;
+	text-decoration-line: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* { box-sizing: border-box; }

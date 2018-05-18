@@ -1,0 +1,107 @@
+header	{ 	
+	width: 100%; 	
+ 	margin-bottom: 20px; 
+ 	display: inline-block;
+ 	text-align: center;
+ 	height: 40px;	
+ }
+.logo {
+margin-top: 8px;
+width: 100px;
+height: 50px;
+margin-left: 80px;
+display: inline-block;
+float:left;
+}
+nav 
+{
+	display: inline-block;	
+	margin-right: 80px;
+	margin-top: 8px;
+	float: right;	
+}
+ul { 
+	margin-bottom: 20px;
+	display: inline-block;
+	 }
+a {
+	color: black;
+}
+a:hover  {
+	color: lightblue;
+	transform: .3s;
+}
+.active a {color: blue;}
+li { display: inline-block;
+	margin-right: 30px;
+}
+.burger {
+display: none;
+float: right;
+border-left: 1px solid grey;
+height: 112;
+padding-left: 60px;
+padding-right: 60px;
+padding-top: 45px;
+}
+.baner  { width: 100%;
+ height: 500px;
+ position: relative; 
+ overflow: hidden;
+}
+.mainimg { width: 100%;
+	height: auto;
+}
+.name {position: absolute;
+top: 110px;
+right: 35%;
+}
+.name h1, h2 {color: #eff0f4;
+}
+.name h2  { margin-left: 120px;} 
+.what-i-do h2 { color: black;
+}
+.heading  {
+	position: relative;
+	margin-top: 30px;}
+.heading { 
+margin-left: 45%;
+margin-top: 10px;
+ }
+.what-i-do span {
+ height: 5px;
+ width: 5px;
+margin-top: 0px;
+margin-left: 30px;
+}
+.flex-mother { 
+display: flex;
+margin-top: 30px;
+margin-left: 200px;
+ }
+.flex-child {
+width: 20%;
+height: 240px;
+border: 1px solid grey;
+margin-right: 30px;
+}
+
+.flex-child img {
+width: 50px;
+height: 50px;
+margin-top: 20px;
+margin-left: 105px; 
+}
+.flex-child  h2, span { text-align: center; }
+
+.children {
+
+width: 30%;
+height: 140px;
+border: 1px solid grey;
+margin-right: 30px;
+}
+
+.my-work h2 {color: black;
+
+}
