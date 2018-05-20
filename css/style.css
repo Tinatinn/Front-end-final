@@ -62,11 +62,11 @@ right: 35%;
 .what-i-do h2 { color: black;
 }
 .heading  {
-	position: relative;
-	margin-top: 30px;}
-.heading { 
-margin-left: 45%;
-margin-top: 10px;
+		position: relative;
+		margin-top: 40px;
+		margin-left: 45%;
+ }
+ .heading h2, span {color: black;
  }
 .what-i-do span {
  height: 5px;
@@ -96,12 +96,32 @@ margin-left: 105px;
 
 .children {
 
-width: 30%;
-height: 140px;
+width: 600px;
+height: 240px;
 border: 1px solid grey;
 margin-right: 30px;
 }
 
 .my-work h2 {color: black;
 
+}
+ 
+ .children:nth-of-type(1) { background-image: url("../Img/work1.png") }
+ .children:nth-of-type(2) {  background-image: url("../Img/work2.png")  }
+  .children:nth-of-type(3) {  background-image: url("../Img/work3.png")  }
+   .children:nth-of-type(4) {  background-image: url("../Img/work4.png")  }
+  .children:nth-of-type(5) {  background-image: url("../Img/work2.png")  }
+ .children:nth-of-type(6) {  background-image: url("../Img/work3.png")  }
+.children img {width: auto;}
+.children:nth-of-type(3) {margin-right: 150px;}
+
+.end { width: 100%;
+	background-color: #33363a;} 
+
+footer .logo {
+margin-top: 8px;
+width: 100px;
+height: 50px;
+margin-right: 80px;
+float: right;
 }
